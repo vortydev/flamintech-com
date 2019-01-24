@@ -1,40 +1,96 @@
+@charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
-body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
+html, body
+{
+  margin: 40px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+}
+header, footer
+{
+  position: fixed;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+  background-color: #ff7921;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header
+{
+  top: 0px;
+  height: 80px;
+}
+.title-flamintech
+{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 15;
+  font-size: 50px;
+  margin: 0px;
+  color: #FFF;
+}
+nav
+{
+  position: relative;
+  right: 20px;
+  top: 40px;
+}
+ul
+{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+li
+{
+  float: right;
+  padding: 0px;
+}
+li a
+{
+  display: block;
+  line-height: 2em;
+  color: white;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+.navigation a:hover
+{
+  background: #fc6200;
+  color: #ffe7db;
+}
+.en-button
+{
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  height: 30px;
+}
+.fr-button
+{
+  position: fixed;
+  top: 5px;
+  right: 40px;
+  height: 30px;
 }
 
-nav {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 10px;
-    padding: 20px 20px 20px 40px;
-    background-color: #2c2c2c;
+footer
+{
+  bottom: 0px;
+  height: 20px;
+  background-color: #ff7921;
 }
-
-.logo {
-    grid-column: span 3 / auto;
-    width: 200px;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-.navigation {
-    display: grid;
-    grid-template-columns: repeat(4, 25%);
-    color: #fff;
-    width: 500px;
-
-
-}
-.navigation-container {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
+.footnote
+{
+  text-align: center;
+  font-size:15px;
+  color: #fff;
 }
