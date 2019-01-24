@@ -67,19 +67,18 @@ li a
   background: #fc6200;
   color: #ffe7db;
 }
-.en-button
+
+.contact-container
 {
-  position: fixed;
-  top: 5px;
-  right: 5px;
-  height: 30px;
+  margin-top: 75px;
+  text-align: center;
 }
-.fr-button
+.email-button
 {
-  position: fixed;
-  top: 5px;
-  right: 40px;
-  height: 30px;
+  height:auto;
+  width:auto;
+  left: 50%;
+  top: 50%;
 }
 
 footer
