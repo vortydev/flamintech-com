@@ -68,17 +68,66 @@ li a
   color: #ffe7db;
 }
 
+.desc-intro
+{
+  margin-top: 75px;
+  text-align: center;
+}
+.desc-repair
+{
+  float: left;
+  padding: 10px;
+  text-align: justify
+}
+.desc-cleaning
+{
+  float: right;
+  padding: 10px;
+  text-align: justify;
+}
+.desc-build
+{
+  float: left;
+  padding: 10px;
+  text-align: justify;
+}
+
+.img-repair
+{
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.img-cleaning
+{
+  float: left;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+.img-build
+{
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
 .contact-container
 {
   margin-top: 75px;
   text-align: center;
 }
-.email-button
+
+.about-container
 {
-  height:auto;
-  width:auto;
-  left: 50%;
-  top: 50%;
+  margin-top: 75px;
+  text-align: center;
+}
+.construction-panel
+{
+  height: 200px;
 }
 
 footer
