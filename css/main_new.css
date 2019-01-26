@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html, body
+{
+  margin: 40px;
+  padding: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+section {
+    width: 100%;
+}
+
+.services-section {
+    display: grid;
+    /*
+    Still have to add the GRID css ofcourse
+    */
+}
+
+.left-section {
+
+}
+
+.right-section {
+
+}
