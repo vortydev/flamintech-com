@@ -31,3 +31,8 @@ main {
 .services-img {
     width: 500px
 }
+
+.title {
+    text-align: center;
+    padding: 30px;
+}
