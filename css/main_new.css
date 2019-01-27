@@ -9,21 +9,25 @@ html, body
   background-color: #fff;
 }
 
-section {
-    width: 100%;
+main {
+    width: 90%;
+    margin: auto;
 }
 
 .services-section {
     display: grid;
-    /*
-    Still have to add the GRID css ofcourse
-    */
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
 }
 
 .left-section {
-
+    padding: 50px;
 }
 
 .right-section {
+    padding: 50px;
+}
 
+.services-img {
+    width: 500px
 }
