@@ -34,7 +34,7 @@ header
   z-index: 15;
   font-size: 50px;
   margin: 0px;
-  color: #FFF;
+  color: #fff;
 }
 nav
 {
@@ -144,9 +144,9 @@ li a
   margin-top: 75px;
   text-align: center;
 }
-.construction-panel
+.excuse
 {
-  height: 200px;
+  height: 500px;
 }
 
 footer
