@@ -30,11 +30,19 @@ header
 {
   position: fixed;
   top: 10px;
-  left: 10px;
+  left: 70px;
   z-index: 15;
   font-size: 50px;
   margin: 0px;
   color: #fff;
+}
+.logo
+{
+  position: fixed;
+  z-index: 15;
+  width: 60px;
+  left: 5px;
+  top: 10px;
 }
 nav
 {
